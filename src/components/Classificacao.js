@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Classificacao({ imc }) {
+    // Função que retorna a classificação com base no IMC
   function getClassificacao(imc) {
     if (imc < 18.5) return 'Abaixo do peso';
     if (imc < 25) return 'Peso normal';
@@ -12,20 +13,21 @@ export default function Classificacao({ imc }) {
   }
 
   return (
+        // Exibe o texto da classificação
     <View style={styles.container}>
       <Text style={styles.text}>Classificação: {getClassificacao(imc)}</Text>
     </View>
   );
 }
-
+// Estilos do componente Classificacao
 const styles = StyleSheet.create({
   container: {
-    marginTop: 10,
-    alignItems: 'center',
+    marginTop: 10, // Espaço acima
+    alignItems: 'center', // Centraliza
   },
   text: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
+    fontSize: 16, // Fonte média
+    fontWeight: '600', // Seminegrito
+    color: '#333', // Cinza escuro
   },
 });
