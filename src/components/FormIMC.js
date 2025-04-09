@@ -1,4 +1,4 @@
-iimport React, { useState } from 'react'; // Hook para estado
+import React, { useState } from 'react'; // Hook para estado
 import { View, TextInput, Button, StyleSheet } from 'react-native'; // Componentes nativos
 import Result from './Result'; // Mostra o IMC
 import Classificacao from './Classificacao'; // Mostra a classificação do IMC
