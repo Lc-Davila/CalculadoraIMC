@@ -34,7 +34,7 @@ cd CalculadoraIMC
 
 3. Instale as dependências
 
-npm install
+npm install expo
 
 4. Inicie o projeto com Expo
 
