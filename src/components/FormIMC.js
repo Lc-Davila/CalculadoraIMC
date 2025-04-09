@@ -57,7 +57,8 @@ export default function FormIMC() {
 // Estilos
 const styles = StyleSheet.create({
   form: {
-    padding: 10,
+   padding: 10,
+   borderRadius: 10,
   },
   input: {
     height: 40,
