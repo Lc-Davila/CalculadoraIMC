@@ -29,14 +29,18 @@ Estilização com StyleSheet
 Como executar o projeto:
 1. Clonar o repositório
 
+abra o cmd ou qualquer terminal
+
+Digite:
 git clone https://github.com/Lc-Davila/CalculadoraIMC.git
+
 cd CalculadoraIMC
 
-3. Instale as dependências
+2. Instale as dependências
 
 npm install expo
 
-4. Inicie o projeto com Expo
+3. Inicie o projeto com Expo
 
 npx expo start
 Abra o app Expo Go no celular e escaneie o QR Code que aparecer no terminal.
