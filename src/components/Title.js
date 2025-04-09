@@ -23,4 +23,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold', //  Deixa em negrito
   },
 });
-export default Title
